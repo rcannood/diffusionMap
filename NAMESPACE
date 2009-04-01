@@ -1,0 +1,1 @@
+export(diffuse, diffusionKmeans, distortionMin,epsilonCompute,plot.dmap,print.dmap)
