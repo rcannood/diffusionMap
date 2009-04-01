@@ -69,7 +69,7 @@ lab.col = c(rep("red",500),rep("blue",500)); n=1000
 scatterplot3d(Chainlink$C1,Chainlink$C2,Chainlink$C3,color=lab.col,
    main="Chainlink Data") # plot Chainlink data
 D = dist(Chainlink) # use Euclidean distance
-dmap = diffuse(D,neigen=3) # compute diffusion map & plot
+dmap = diffuse(D,neigen=3,,eps.val=.01) # compute diffusion map & plot
 plot(dmap)
 print(dmap)
 dkmeans = diffusionKmeans(dmap, K=2, Niter=25)
