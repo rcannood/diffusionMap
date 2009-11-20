@@ -6,7 +6,8 @@ epsilonCompute <- function(D,p=.01){
   k = ifelse(k<2,2,k) # use k of at least 2
   D.sort = apply(D,1,sort)
   dist.knn = D.sort[(k+1),] # find dists. to kth nearest neighbor
-  epsilon = 0.5*median(dist.knn)^2
+  epsilon = 2*median(dist.knn)^2
 
   return(epsilon)
 }
+

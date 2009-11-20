@@ -46,6 +46,7 @@ D = dist(annulus) # use Euclidean distance
 dmap = diffuse(D,0.03) # compute diffusion map 
 km = distortionMin(dmap$X,dmap$phi0,2,dmap$X[sample(n,2),])
 plot(annulus,col=km$S,pch=20)
+table(km$S,c(rep(1,500),rep(2,500)))
 
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

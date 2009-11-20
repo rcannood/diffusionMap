@@ -3,8 +3,8 @@
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{Compute default diffusion map epsilon. }
 \description{
-  Uses the pair-wise distances to compute a diffusion map epsilon values
-  from the median p*n-th nearest neighbor
+  Uses the pair-wise distances to estimate a diffusion map epsilon value by
+  the median p*n-th nearest neighbor
 }
 \usage{
 epsilonCompute(D, p = 0.01)
@@ -17,7 +17,7 @@ epsilonCompute(D, p = 0.01)
     value is .01}
 }
 \details{
-  Function is used as the default value in diffuse().  For most
+  Function is used as the default value in diffuse().  For 
   inference problems, it is advised that the results be optimized over epsilon.
 }
 \value{

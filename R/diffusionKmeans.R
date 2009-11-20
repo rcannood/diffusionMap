@@ -1,4 +1,4 @@
-diffusionKmeans <- function(dmap, K, params=c(), Niter=50, epsilon=0.001){
+diffusionKmeans <- function(dmap, K, params=c(), Niter=10, epsilon=0.001){
 
   n=dim(dmap$X)[1]
   D=Inf # max. distortion
