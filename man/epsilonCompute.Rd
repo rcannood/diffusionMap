@@ -23,7 +23,7 @@ epsilonCompute(D, p = 0.01)
 \value{
   \item{epsilon }{value of epsilon to be used in diffusion map}
 }
-\author{ Joseph Richards \email{jwrichar@stat.cmu.edu} }
+\author{ Joseph Richards \email{joeyrichar@gmail.com} }
 \seealso{ \code{\link{diffuse}} }
 \examples{
 data(annulus)

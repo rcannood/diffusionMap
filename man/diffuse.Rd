@@ -83,7 +83,7 @@ and the value of epsilon used.
   Richards, J. W., Freeman, P. E., Lee, A. B., Schafer, C. M., (2009),
   ApJ, 691, 32
    }
-\author{ Joseph Richards \email{jwrichar@stat.cmu.edu} }
+\author{ Joseph Richards \email{joeyrichar@gmail.com} }
 \seealso{ \code{\link{plot.dmap}},\code{\link{print.dmap}} }
 \examples{
 

@@ -1,1 +1,4 @@
+import(igraph)
+import(Matrix)
+import(scatterplot3d)
 export(adapreg.m, adapreg, diffuse, diffusionKmeans, distortionMin,epsilonCompute,nystrom, plot.dmap,print.dmap)

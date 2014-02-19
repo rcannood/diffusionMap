@@ -36,7 +36,7 @@ distortionMin(X, phi0, K, c0, epsilon = 0.001)
     Lafon, S., \& Lee, A., (2006), IEEE Trans. Pattern Anal. and
   Mach. Intel., 28, 1393
 }
-\author{ Joseph Richards \email{jwrichar@stat.cmu.edu} }
+\author{ Joseph Richards \email{joeyrichar@gmail.com} }
 
 \seealso{ \code{\link{diffusionKmeans}} }
 \examples{

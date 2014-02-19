@@ -57,11 +57,13 @@ diffusionKmeans(dmap, K, params = c(), Niter = 10, epsilon = 0.001)
   Richards, J. W., Freeman, P. E., Lee, A. B., Schafer, C. M., (2009),
   MNRAS, Volume 399, Issue 2, pp. 1044-1057
   }
-\author{ Joseph Richards \email{jwrichar@stat.cmu.edu} }
+\author{ Joseph Richards \email{joeyrichar@gmail.com} }
 
 \seealso{ \code{\link{diffuse}}}
 
 \examples{
+library(scatterplot3d)
+
 ## example with annulus data set
 data(annulus)
 par(mfrow=c(2,1))
@@ -81,9 +83,8 @@ lab.col = c(rep("red",500),rep("blue",500)); n=1000
 scatterplot3d(Chainlink$C1,Chainlink$C2,Chainlink$C3,color=lab.col,
    main="Chainlink Data") # plot Chainlink data
 D = dist(Chainlink) # use Euclidean distance
-dmap = diffuse(D,neigen=3,,eps.val=.01) # compute diffusion map & plot
+dmap = diffuse(D,neigen=3,eps.val=.01) # compute diffusion map & plot
 plot(dmap)
-print(dmap)
 dkmeans = diffusionKmeans(dmap, K=2)
 col.dkmeans=ifelse(dkmeans$part==1,"red","blue")
 scatterplot3d(Chainlink,color=col.dkmeans,

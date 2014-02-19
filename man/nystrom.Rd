@@ -49,7 +49,7 @@ nystrom(dmap,Dnew,sigma=dmap$epsilon)
   Lafon, S., Keller, Y., and Coifman, R. R. (2006), IEEE Trans. Pattern Anal. and
   Mach. Intel., 28, 1784
 }
-\author{ Joseph Richards \email{jwrichar@stat.cmu.edu} }
+\author{ Joseph Richards \email{joeyrichar@gmail.com} }
 \seealso{ \code{\link{diffuse}} }
 \examples{
 Norig = 1000
@@ -66,7 +66,9 @@ DExt = D[(Norig+1):(Norig+Next),1:Norig] # new data distance matrix
 dmap = diffuse(Dorig,neigen=2) 
  # use Nystrom extension
 dmapExt = nystrom(dmap,DExt)
-plot(dmapExt[,1:2],pch=8,col=2,main="Diffusion map, black = original, red = new data",xlab="1st diffusion coefficient",ylab="2nd diffusion coefficient")
+plot(dmapExt[,1:2],pch=8,col=2,
+  main="Diffusion map, black = original, red = new data",
+  xlab="1st diffusion coefficient",ylab="2nd diffusion coefficient")
 points(dmap$X[,1:2],pch=19,cex=.5)
 
 }
