@@ -1,6 +1,6 @@
 Package: diffusionMap
 Version: 1.2.0
-Title: Diffusion map
+Title: Diffusion Map
 Authors@R: c(
     person(
       "Joseph", "Richards", 
