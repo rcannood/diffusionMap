@@ -18,7 +18,7 @@ Authors@R: c(
 Description: Implements diffusion map method of data
     parametrization, including creation and visualization of
     diffusion map, clustering with diffusion K-means and
-	  regression using adaptive regression model.
+	  regression using adaptive regression model. <doi:10.1088/0004-637X/691/1/32>
 Depends: R (>= 2.10)
 Imports:
   scatterplot3d,
