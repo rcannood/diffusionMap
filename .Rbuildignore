@@ -1,4 +1,14 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
-^\.travis
+^\.Rhistory$
+^\.travis\.yml$
 ^cran-comments\.md$
+^revdep$
+^\.git$
+^appveyor\.yml$
+^README\.Rmd$
+^vignettes/.*\.md$
+^vignettes/.*\.html$
+^vignettes/.*/.*\.png$
+^inst/NEWS.md$
+^CRAN-RELEASE$
