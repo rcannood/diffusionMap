@@ -65,6 +65,9 @@
 #' 691, 32
 #' @keywords multivariate nonparametric
 #'
+#' @importFrom igraph arpack
+#' @importFrom Matrix sparseMatrix
+#'
 #' @export
 #' @examples
 #' library(stats)
