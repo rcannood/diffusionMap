@@ -1,6 +1,12 @@
 Package: diffusionMap
-Version: 1.2.0
+Type: Package
 Title: Diffusion Map
+Version: 1.2.0
+Description: Implements diffusion map method of data
+    parametrization, including creation and visualization of
+    diffusion map, clustering with diffusion K-means and
+	  regression using adaptive regression model.
+	  Richards (2009) <doi:10.1088/0004-637X/691/1/32>.
 Authors@R: c(
     person(
       "Joseph", "Richards", 
@@ -15,11 +21,6 @@ Authors@R: c(
       comment = c(ORCID = "0000-0003-3641-729X", github = "rcannood")
     )
   )
-Description: Implements diffusion map method of data
-    parametrization, including creation and visualization of
-    diffusion map, clustering with diffusion K-means and
-	  regression using adaptive regression model.
-	  Richards (2009) <doi:10.1088/0004-637X/691/1/32>.
 Depends: R (>= 2.10)
 Imports:
   scatterplot3d,
@@ -29,7 +30,7 @@ Imports:
   stats
 License: GPL-3
 URL: https://github.com/rcannood/diffusionMap
-NeedsCompilation: no
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
 Encoding: UTF-8
+LazyData: true
